@@ -1,0 +1,74 @@
+#home #pricing{
+	background: none;
+	background-color: #0072C6;	
+}
+
+#home #clients{
+	background: none;
+	background-color: #0072C6;	
+}
+
+
+.navbar.normal{
+	background-color: #0072C6;
+}
+
+.navbar.normal .navbar-header .navbar-brand{
+	background-image: url("../../images/dilacak-logo.png");
+	background-repeat: no-repeat;
+	width: 150px;
+	margin-top: 15px;
+}
+
+
+
+.statusbar {
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 2000;
+	margin-bottom: 0;
+}
+.statusbar .content {
+	padding: 20px 0;
+	font-size: 12px;
+}
+
+.success {
+	color: #468847;
+}
+.notice {
+	background-color: #fcf8e3;
+	color: #c09853
+}
+
+.error {
+	background-color: #f2dede;
+	color: #b94a48;
+}
+.info {
+	background-color: #d9edf7;
+	color: #3a87ad;	
+}
+.statusbar .close {
+	font-size: 28px;
+}
+
+.close {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+.close:hover,
+.close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
+	<title>React - Bootstrap Theme</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/compiled/theme.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/flexslider.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+	<!-- javascript -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="js/vendor/jquery.flexslider.min.js"></script>
+	<script src="js/theme.js"></script>
+
+	<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body id="about-us">
+	<header class="navbar navbar-inverse normal" role="banner">
+  		<div class="container">
+    		<div class="navbar-header">
+		      	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		      	</button>
+      			<a href="index.html" class="navbar-brand"></a>
+    		</div>
+    		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      			<ul class="nav navbar-nav">
+      				<li class="active">
+        				<a href="/">
+          					Home
+          				</a>          				
+        			</li>
+        			<li>
+        				<a href="/features">
+          					Features
+          				</a>
+        			</li>
+        			<li>
+          				<a href="/pricing">
+          					Pricing
+          				</a>
+          				
+        			</li>
+        			<li>
+          				<a href="/contactus">
+          					Contact Us
+          				</a>
+          				
+        			</li>
+	    			<li class="dropdown">
+	    				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+	      					More <b class="caret"></b>
+	      				</a>
+	      				<ul class="dropdown-menu">
+							<li><a href="/aboutus">About us</a></li>							
+				        </ul>
+	    			</li>        
+	    		</ul>
+      			<ul class="nav navbar-nav navbar-right visible-md visible-lg">
+      				<li>
+          				<a href="signup.html" class="button">Sign up free</a>
+        			</li>
+      			</ul>
+    		</nav>
+  		</div>
+	</header>
+
+	<div id="slider">
+		<div class="container">
+			<div class="row header">
+				<div class="col-md-12">
+					<h3>About Dilacak.com</h3>
+					<p>
+						Professional and ethical work is our motto.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="flexslider">
+					  	<ul class="slides">
+							<li>
+						      	<img src="images/kantor.png" alt="office1" />
+						    </li>
+						    <li>
+						      	<img src="images/narsis.png" alt="office2" />
+						    </li>
+					  	</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>We care about our work</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">					
+					<p>
+						Semenjak 2012 Dilacak.com fokus untuk membuat produk yang dapat membantu perusahaan atau perorangan untuk meningkatkan efisiensi dan keamanan asset bergerak mereka. GPS Tracker yang merupakan produk pertama kami, telah membantu client-client kami untuk menghemat biaya operasional mereka. 
+					</p>
+					
+				</div>
+				<div class="col-md-6">
+					<p>
+						Dengan beracuan pada kesuksesan produk pertama kami, kami memiliki visi untuk terus beriterasi menambah berbagai fitur dapal GPS Tracker dan dalam proses pembuatan produk-produk lain yang masih berfokus untuk meningkatkan efisiensi, keamanan dan menghemat biaya operasi pengguna kami.
+					</p>
+				</div>
+			</div>
+			<!-- <div class="row stats">
+				<div class="col-sm-3">
+					<strong>13</strong>
+					employees
+				</div>
+				<div class="col-sm-3">
+					<strong>10k</strong>
+					customers
+				</div>
+				<div class="col-sm-3">
+					<strong>9</strong>
+					template pages
+				</div>
+				<div class="col-sm-3">
+					<strong>13k</strong>
+					products sold
+				</div>
+			</div> -->
+			<div class="row team">
+				<div class="col-md-12 team-row">
+					<img src="images/testimonials/avi.png" data-toggle="tooltip" title="Aviandri Hidayat - CEO" alt="testimonial" />
+					<img src="images/testimonials/dindin.png" data-toggle="tooltip" title="Dindin Mulyana - COO" alt="testimonial" />
+					<img src="images/testimonials/hana.png" data-toggle="tooltip" title="Hana Abriansyah - CTO" alt="testimonial" />					
+				</div>				
+			</div>
+		</div>
+	</div>
+
+	<div id="cta">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="wrapper clearfix">
+						<h4>Coba produk kami, dan bantu kami untuk membantu anda.</h4>
+						<a href="signup.html" class="button button-small">Trial</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 copyright">
+					React © 2014
+				</div>
+				<div class="col-sm-6 menu">
+					<ul>
+	      				<li>
+	          				<a href="features.html">Features</a>
+	        			</li>
+	        			<li>
+	        				<a href="services.html">Services</a>
+	        			</li>
+	        			<li class="active">
+	          				<a href="pricing.html">Pricing</a>
+	        			</li>
+	        			<li>
+	          				<a href="support.html">Support</a>
+	        			</li>
+	        			<li>
+	          				<a href="blog.html">Blog</a>
+	        			</li>
+	      			</ul>
+				</div>
+				<div class="col-sm-3 social">
+					<a href="#">
+						<img src="images/social/social-tw.png" alt="twitter" />
+					</a>
+					<a href="#">
+						<img src="images/social/social-dbl.png" alt="dribbble" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	  	$(function() {
+			$('.flexslider').flexslider({
+				directionNav: false,
+				slideshowSpeed: 4000
+			});
+			$('[data-toggle="tooltip"]').tooltip();
+	  	});
+	</script>
+</body>
+</html>
