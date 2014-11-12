@@ -43,6 +43,10 @@ get '/aboutus' do
     erb :aboutus
 end
 
+not_found do
+  redirect to('/')
+end
+
 
 post '/send_message' do
 	Pony.mail :to => "aviandri@dilacak.com",
